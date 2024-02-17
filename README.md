@@ -17,6 +17,10 @@ Buscar na web o CNPJ a partir do nome da empresa e do domínio fornecidos, e det
 
 # Descrição dos processos do Script
 
+**Biblioteca utilizada para webscraping**
+
+    Selenium
+
 ## Google.com
 
 1) Faz a busca no navegador do Google 'CNPJ {nome da empresa}'.
