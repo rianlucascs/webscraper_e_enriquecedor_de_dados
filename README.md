@@ -21,6 +21,8 @@ Buscar na web o CNPJ a partir do nome da empresa e do domínio fornecidos, e det
 
     Selenium
 
+A busca do cnpj é feita por meio do Google e do Registro.br
+
 ## Google.com
 
 1) Faz a busca no navegador do Google 'CNPJ {nome da empresa}'.
