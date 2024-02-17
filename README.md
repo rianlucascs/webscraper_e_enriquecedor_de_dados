@@ -100,7 +100,10 @@ A busca do cnpj é feita por meio do Google e do Registro.br
 
     **Formato do resultado**
 
-        [cnpj, nome empresa]
+    | empresa                   | domínio             | CNPJ   | razão social   |
+    |---------------------------|---------------------|--------|----------------|
+    | Uranus2 Comunicação       | uranus2.com.br      | 00.188.004/0002-26      | URANUS 2 COMUNICACAO LTDA              |
+    | MBM Comunicação Visual    | mbmvisual.com.br    | 00.286.576/0001-67      | M.B.M. COMERCIO E COMUNICACAO VISUAL LTDA              |
 
 # Observações
 
