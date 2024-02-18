@@ -90,6 +90,8 @@ A busca do cnpj é feita por meio do Google e do Registro.br
 
     Especificamente no caso da 'Receita Federal', o limite de requisições de consulta é respeitado, sendo 3 por minuto.
 
+    Se não encontrar em um site então buscar no site seguinte, se não encontrar, então retorna 'nan'
+
 4) É feita o cálculo da similaridade do nome da empresa informado com a razão social encontrada dos três CNPJs.
 
     **Biblioteca utilizada**
@@ -104,6 +106,8 @@ A busca do cnpj é feita por meio do Google e do Registro.br
     |---------------------------|---------------------|--------|----------------|
     | Uranus2 Comunicação       | uranus2.com.br      | 00.188.004/0002-26      | URANUS 2 COMUNICACAO LTDA              |
     | MBM Comunicação Visual    | mbmvisual.com.br    | 00.286.576/0001-67      | M.B.M. COMERCIO E COMUNICACAO VISUAL LTDA              |
+
+Durante todo o processamento, as informações são armazenadas, tanto as páginas web quanto os dados extraídos. Isso diminui  o tempo de processamento e, caso o código seja interrompido, ele não perder o trabalho já feito.
 
 # Observações
 
