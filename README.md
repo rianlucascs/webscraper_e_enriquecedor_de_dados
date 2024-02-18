@@ -1,6 +1,6 @@
 # Webscraper e Enriquecedor de Dados
 
-![Texto Alternativo](https://github.com/rianlucascs/webscraper_e_enriquecedor_de_dados/blob/main/imagem.jpg)
+![Texto Alternativo](https://github.com/rianlucascs/webscraper_e_enriquecedor_de_dados/blob/main/imag.jpg)
 
 Este projeto apresenta um software dedicado à automação da coleta de dados da web. Utilizando o nome da empresa e o domínio fornecidos, ele extrai informações relevantes e realiza uma filtragem para garantir a precisão dos dados obtidos. Essa abordagem simplifica significativamente o processo de obtenção de dados da internet.
 
