@@ -96,18 +96,14 @@ def confirma_dados(empresa, result_busca, core_path):
         confirmacao2 = master.__init__(google_maior_frequencia[1], core_path), google_maior_frequencia[1]
     if result_busca[1] != 'nan': # registro
         confirmacao3 = master.__init__(result_busca[1], core_path), result_busca[1]
-    maior_cimilaridade = comparacao.__init__(empresa, confirmacao1, confirmacao2, confirmacao3)
-    return maior_cimilaridade
+    maior_similaridade = comparacao.__init__(empresa, confirmacao1, confirmacao2, confirmacao3)
+    return maior_similaridade
 
 async def main():
-    
     aps = acoes_primarias_sistema()
     core_path = aps[0]
-
     tabela, data_path = leitura_dados(caixa_de_escolha=True, fillna='nan',
                            log_caminho=f'{core_path}temp\\data_path.txt')
-    
-    nome_arquivo_data = path_nome_arquivo(data_path)
     
     __dados_estruturais__ = dados_estruturais.__init__(tabela)
 
@@ -119,7 +115,6 @@ async def main():
         )
         result_busca = monta_dados(empresa, dominio, core_path)
         result_confirma = confirma_dados(empresa, result_busca, core_path)
-
         lista_data[0].append(empresa)
         lista_data[1].append(dominio)
         lista_data[2].append(result_confirma[0])
@@ -132,6 +127,7 @@ async def main():
                            'cnpj_encontrado'
                            ]).T
     
+    nome_arquivo_data = path_nome_arquivo(data_path)
     df.to_excel(f'resultado {nome_arquivo_data}.xlsx')
 
 if __name__ == '__main__':        
