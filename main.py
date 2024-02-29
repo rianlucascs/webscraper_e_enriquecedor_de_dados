@@ -1,41 +1,25 @@
 from utils.generico import (
-    path_raiz,
-    estabelecer_caminho_inteligente_script,
-    leitura_dados,
-    existe,
-    path_nome_arquivo,
-    leitura,
-    sistema_parametros
+    path_raiz, estabelecer_caminho_inteligente_script,
+    leitura_dados, existe, path_nome_arquivo,
+    leitura, sistema_parametros
     )
 
 from utils import (
-    dados_estruturais,
-    nomes_arquivos,
-    metodos_confirmacao,
-    comparacao
+    dados_estruturais, nomes_arquivos,
+    metodos_confirmacao, comparacao
     )
 
-from asyncio import (
-    create_task, 
-    gather, 
-    run
-    )
+from asyncio import create_task, gather, run
 
 from scraping.busca.google import (
-    google, 
-    google_armazenamento,
-    google_localizador
-    )
-from scraping.busca.registrobr import (
-    registrobr, 
-    registrobr_armazenamento,
-    registrobr_localizador
+    google, google_armazenamento, google_localizador
     )
 
-from utils.nomes_arquivos import (
-    pagina_google,
-    pagina_registro
+from scraping.busca.registrobr import (
+    registrobr, registrobr_armazenamento,registrobr_localizador
     )
+
+from utils.nomes_arquivos import pagina_google, pagina_registro
 
 from scraping.confirmacao import master
 from pandas import DataFrame
