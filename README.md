@@ -112,3 +112,5 @@ Durante todo o processamento, as informações são armazenadas, tanto as págin
 Uma das principais dificuldades deste projeto foi concluir que o CNPJ mais frequente na página de busca resulta em maior precisão. Durante o desenvolvimento, explorei outras abordagens semelhantes ao 'Método A', que envolve a busca por um nome de empresa similar ao informado, ou seja, por aproximação. 
 
 Tempo para desenvolvimento: três meses.
+
+Foi processado mais de 40.000 empresas.
