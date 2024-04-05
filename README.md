@@ -1,6 +1,6 @@
 # Webscraper e Enriquecedor de Dados
 
-Este projeto apresenta um software dedicado à automação da coleta de dados da web. Utilizando o nome da empresa e o domínio fornecidos, ele extrai informações relevantes e realiza uma filtragem para garantir a precisão dos dados obtidos. Essa abordagem simplifica significativamente o processo de obtenção de dados da internet.
+Este projeto apresenta um software dedicado à automação da coleta de dados da web. Utilizando o nome da empresa e o domínio fornecidos, ele extrai informações relevantes e realiza uma filtragem para garantir a precisão dos dados obtidos.
 
 # Situação problema
 
@@ -111,19 +111,7 @@ Durante todo o processamento, as informações são armazenadas, tanto as págin
 
 Tempo para desenvolvimento: três meses.
 
-Uma das principais dificuldades deste projeto foi concluir que o CNPJ mais frequente na página de busca resulta em maior precisão. Durante o desenvolvimento, explorei outras abordagens semelhantes ao 'Método A', que envolve a busca por um nome de empresa similar ao informado, ou seja, por aproximação. O método encontrado é simples e eficaz, em comparação com outros.
+Uma das principais dificuldades deste projeto foi concluir que o CNPJ mais frequente na página de busca resulta em maior precisão. Durante o desenvolvimento, explorei outras abordagens semelhantes ao 'Método A', que envolve a busca por um nome de empresa similar ao informado, ou seja, por aproximação. 
 
-Desenvolvi este projeto completamente, sem supervisão de outro desenvolvedor.
+O método encontrado é simples e eficaz, em comparação com outros.
 
-A maior quantidade de dados aplicado a esse script foi de 50.000 empresas.
-
-Tempo de processamento 1000 empresas a cada 1 hora e 20 minutos =~.
-
-O código main de execução esta disponível para visualização nessa pasta.
-
-## Contato
-> Rian Lucas da Cunha Silva
-
-> rianlucasjp@gmail.com
-
-> www.linkedin.com/in/rian-lucas
